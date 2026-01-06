@@ -21,6 +21,7 @@ on:
       - 'qmk_firmware/keyboards/keyball/**.json'
       - '.github/**.yml'
 
+  workflow_dispatch: {}
   workflow_call: {}
 
 jobs:

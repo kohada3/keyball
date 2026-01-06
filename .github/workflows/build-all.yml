@@ -30,7 +30,7 @@ jobs:
     strategy:
       matrix:
         keyboard: [ keyball39, keyball44, keyball61, keyball46, one47 ]
-        keymap: [ test, default, via ]
+        keymap: [ test, default, via, kohada ]
         include:
           - keyboard: keyball46
             keymap:   test_Left
